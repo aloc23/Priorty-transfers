@@ -2,12 +2,4 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-  @apply text-white min-h-screen flex flex-col;
-  background-size:200% 200%;
-  animation:gradient 20s ease infinite;
-}
-.card{@apply bg-gray-900 bg-opacity-60 backdrop-blur-md shadow-lg rounded-xl p-6 transition-transform;}
-.card:hover{transform:scale(1.02);}
-.btn{@apply px-4 py-2 rounded-md font-semibold transition shadow;}
-.btn:hover{@apply shadow-neon;}
+body{ @apply font-sans; }
